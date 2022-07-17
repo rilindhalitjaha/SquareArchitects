@@ -30,7 +30,7 @@ body{
 
 }
 .content{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 .main-menu{
@@ -295,6 +295,10 @@ color: #00acee;
 /* Start - Mid Devices */
 
 @media (max-width: 800px){
+    .content{
+        width: 95%;
+        margin: 0 auto;
+    }
     .main-bg{
         background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(../images/bg1.jpeg) ;
         width: 100%;
@@ -347,15 +351,17 @@ color: #00acee;
 
 @media (max-width: 576px){
 
+.content{
+        width: 95%;
+        margin: 0 auto;
+}
+
 .main-bg{
     background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(../images/bg1.jpeg) ;
     height: 70vh;
     width: 100%;
     background-position: right ;
-    
-
 }
-
 .main-menu nav{
     display: none;
 }
