@@ -1,6 +1,4 @@
-# Website me HTML dhe CSS
-
-Projekti i pare ne HTML dhe CSS me responsivitet ne te gjitha paisjet.
+# Projekti i pare ne HTML dhe CSS me responsivitet ne te gjitha paisjet.
 
 Projekti eshte bere per kompanine e arkitektures "SquareArchitects"
 
