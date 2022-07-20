@@ -47,8 +47,7 @@ body{
     display: flex;
 }
 .logo .square-logo{
-    border: 3px solid var(--text-color-dark);
-    color: var(--text-color-dark);
+    border: 2px solid var(--text-color-dark);
     padding: 10px 20px;
     font-size: 25px;
     font-family: var(--normal-text);
@@ -165,7 +164,7 @@ body{
 .news > div{
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 430px;
     justify-content: space-between;
     margin-bottom: 100px;
 }
@@ -232,30 +231,33 @@ footer h3{
     border: 1px solid var(--text-color-light);
     background: transparent;
     padding: 10px;
-
-}
-.contact-div form input:hover{
-    background: rgb(236, 236, 236);
-    opacity: 0.5;
+    transition: 0.3s;
 }
 footer textarea{
     width: 100%;
     border: 1px solid var(--text-color-light);
     background: transparent;
+    transition: 0.3s;
+}
+.contact-div form input:hover, textarea:hover{
+    background: rgb(236, 236, 236);
+    opacity: 0.5;
+}
+.contact-div .btn-right{
+    text-align: right;
 }
 footer button{
+    border: 0.5px solid white;
     padding: 10px 15px;
     background: var(--text-color-dark);
     color: black;
-    border: none;
     margin: 10px 0;
     transition: 0.3s;
     cursor: pointer;
-    
+    width: 50%;
 }
 footer button:hover{
     background: transparent;
-    border: 0.5px solid white;
     color: white;
 }
 .social a{
@@ -288,13 +290,16 @@ color: #00acee;
     font-family: var(--normal-text);
     font-size: 20px;
 }
+.large-user:hover{
+    border: 1px solid var(--text-color-light);
+}
 .small-user {
     display: none;
 }
 
 /* Start - Mid Devices */
 
-@media (max-width: 800px){
+@media (max-width: 850px){
     .content{
         width: 95%;
         margin: 0 auto;
@@ -333,7 +338,7 @@ color: #00acee;
     .news > div{
         display: flex;
         flex-direction: column;
-        height: 500px;
+        height: 430px;
         justify-content: space-between;
         margin-bottom: 100px;
     }
