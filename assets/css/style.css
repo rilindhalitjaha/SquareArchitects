@@ -167,6 +167,7 @@ body{
     height: 430px;
     justify-content: space-between;
     margin-bottom: 100px;
+    align-items: flex-start;
 }
 .big-nr{
     margin: 0;
